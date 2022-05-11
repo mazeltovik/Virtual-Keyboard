@@ -1,0 +1,215 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.textArea{
+    display: block;
+    width: 700px;
+    height: 200px;
+    margin: 10px auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: #444444
+}
+
+.keyboard{
+    width: 704px;
+    height: 251px;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    background: #888888;
+    border: 3px solid #222222;
+    border-radius: 5px;
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+.row0, .row1,.row2,.row3,.row4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:8px;
+}
+
+.row0 div:hover, .row1 div:hover, .row2 div:hover, .row3 div:hover, .row4 div:hover {
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+.key{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none
+}
+
+.keyActive{
+    background-color: green;
+    border-radius: 50%;
+    transition: 0.1s;
+}
+
+#keyboard > div.row0 > div:nth-child(14){
+    width: 100px;
+    background-color: #222222;
+}
+
+#keyboard > div.row0 > div:nth-child(14):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+#keyboard > div.row1 > div:nth-child(1){
+    width:50px;
+    background-color: #222222;
+}
+
+#keyboard > div.row1 > div:nth-child(1):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+#keyboard > div.row1 > div:nth-child(15){
+    width:44px;
+    background-color: #222222; 
+}
+
+#keyboard > div.row1 > div:nth-child(15):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s; 
+}
+
+#keyboard > div.row2 > div:nth-child(1){
+    width:100px;
+    background-color: #222222;
+}
+
+#keyboard > div.row2 > div:nth-child(1):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s; 
+}
+
+#keyboard > div.row2 > div:nth-child(13){
+    width:86px;
+    background-color: #222222; 
+}
+
+#keyboard > div.row2 > div:nth-child(13):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+#keyboard > div.row3 > div:nth-child(1){
+    width:103px;
+    background-color: #222222;
+}
+
+#keyboard > div.row3 > div:nth-child(1):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+#keyboard > div.row3 > div:nth-child(12){
+    background-color: #222222;
+}
+
+#keyboard > div.row3 > div:nth-child(12):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+#keyboard > div.row3 > div:nth-child(13){
+    width:100px;
+    background-color: #222222;
+}
+
+#keyboard > div.row3 > div:nth-child(13):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+.row4 div{
+    background-color: #222222; 
+}
+
+
+#keyboard > div.row4 > div.key.Space{
+    width: 330px;
+    background-color: #444444;
+}
+
+
+#keyboard > div.row4 > div:nth-child(4):hover{
+    background-color: rgb(121, 170, 137);
+    transition: 0.2s;
+}
+
+/* .activeCaps{
+    background-color: green;
+} */
+
+.CapsLock{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none
+}
+
+/* .activeCaps{
+    border-radius: 2px;
+    background-color: aqua;
+} */
+
+
+.ShiftLeft{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none 
+}
+
+
+.ControlLeft, .AltLeft{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none
+}
+
+.desc, .lang{
+    margin: 10px auto;
+    text-align: center;
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
